@@ -55,17 +55,43 @@ namespace Registration_System_Claridge
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            Class_Delete_Form cdf = new Class_Delete_Form();
+            cdf.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            Registration_Delete_Form rdf = new Registration_Delete_Form();
+            rdf.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Student_Update_Form suf = new Student_Update_Form();
+            suf.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Teacher_Update_Form tuf = new Teacher_Update_Form();
+            tuf.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Class_Update_Form cuf = new Class_Update_Form();
+            cuf.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Registration_Update_Form ruf = new Registration_Update_Form();
+            ruf.Show();
         }
     }
 }

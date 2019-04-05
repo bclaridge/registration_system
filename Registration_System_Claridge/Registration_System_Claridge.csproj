@@ -59,6 +59,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_Delete_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Delete_Form.Designer.cs">
+      <DependentUpon>Class_Delete_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration_Update_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration_Update_Form.Designer.cs">
+      <DependentUpon>Registration_Update_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration_Delete_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration_Delete_Form.Designer.cs">
+      <DependentUpon>Registration_Delete_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Registration_Insert_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +121,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student_Update_Form - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Update_Form - Copy.Designer.cs">
+      <DependentUpon>Student_Update_Form - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Update_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Update_Form.Designer.cs">
+      <DependentUpon>Class_Update_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Update_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher_Update_Form.Designer.cs">
+      <DependentUpon>Teacher_Update_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Class_Delete_Form.resx">
+      <DependentUpon>Class_Delete_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration_Update_Form.resx">
+      <DependentUpon>Registration_Update_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration_Delete_Form.resx">
+      <DependentUpon>Registration_Delete_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Registration_Insert_Form.resx">
       <DependentUpon>Registration_Insert_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +177,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Student_Insert_Form.resx">
       <DependentUpon>Student_Insert_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Update_Form - Copy.resx">
+      <DependentUpon>Student_Update_Form - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Update_Form.resx">
+      <DependentUpon>Class_Update_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Update_Form.resx">
+      <DependentUpon>Teacher_Update_Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

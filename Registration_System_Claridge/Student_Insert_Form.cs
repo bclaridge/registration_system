@@ -16,6 +16,7 @@ namespace Registration_System_Claridge
         public Student_Insert_Form()
         {
             InitializeComponent();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
